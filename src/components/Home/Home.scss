@@ -1,0 +1,78 @@
+.home {
+  width: 100%;
+  .home-cont {
+    display: flex;
+    justify-content: space-between;
+    .home-left-side {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: left;
+      width: 580px;
+      .title {
+        font-family: "Mulish";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 56px;
+        /* or 117% */
+
+        color: #000000;
+
+        mix-blend-mode: normal;
+      }
+      .text {
+        font-family: "Mulish";
+        font-style: normal;
+        font-weight: 300;
+        font-size: 21px;
+        line-height: 32px;
+        /* or 152% */
+        margin: 20px 0;
+
+        color: #7d7987;
+
+        mix-blend-mode: normal;
+      }
+      button {
+        width: 200px;
+        height: 56px;
+        border: 0;
+        outline: 0;
+        background-color: #fff;
+        border: #458ff6 solid 1px;
+
+        border-radius: 55px;
+        cursor: pointer;
+        font-family: "Mulish";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 60px;
+        /* identical to box height, or 333% */
+        transition: all 0.8s;
+        z-index: 2;
+        color: #ffffff;
+
+        &:hover > .hover-div {
+          width: 197px;
+        }
+        .hover-div {
+          width: 0px;
+          height: 52px;
+          margin-left: 1px;
+          background: #458ff6;
+          transition: all 0.3s;
+          z-index: 1;
+        }
+      }
+    }
+    .home-right-side {
+      width: 513px;
+      padding: 40px 0;
+      img {
+        width: 100%;
+      }
+    }
+  }
+}

@@ -1,0 +1,63 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+  .logo {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    .logo-icon {
+      width: 41px;
+      height: 41px;
+      border-radius: 50%;
+      font-size: 25px;
+      background-color: #458ff6;
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .logo-text {
+      font-family: "Mulish";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 30px;
+
+      color: #233348;
+
+      mix-blend-mode: normal;
+      margin-left: 10px;
+    }
+  }
+  .menu {
+    display: flex;
+    align-items: center;
+    li {
+      list-style: none;
+      display: flex;
+      align-items: center;
+      &:hover a {
+        color: #000000;
+        opacity: 1;
+      }
+    }
+    a {
+      text-decoration: none;
+      margin: 0 20px;
+      font-family: "Mulish";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 23px;
+      /* identical to box height */
+      transition: all 0.3s;
+      /* 1f1534-hyfen */
+
+      color: #1f1534;
+      padding: 10px;
+      opacity: 0.5;
+    }
+  }
+}
