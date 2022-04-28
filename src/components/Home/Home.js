@@ -12,9 +12,7 @@ function Home() {
             Trafalgar provides progressive, and affordable healthcare,
             accessible on mobile and online for everyone
           </p>
-          <button>
-            <div className='hover-div'></div>
-          </button>
+          <button>Consult today</button>
         </div>
         <div className='home-right-side'>
           <img

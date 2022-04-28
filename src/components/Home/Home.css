@@ -6,6 +6,8 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -56,9 +58,9 @@
   height: 56px;
   border: 0;
   outline: 0;
-  background-color: #fff;
-  border: #458ff6 solid 1px;
-  border-radius: 55px;
+  background-color: #458ff6;
+  -webkit-box-shadow: inset 10px 0 0 0 #ec32be;
+          box-shadow: inset 10px 0 0 0 #ec32be;
   cursor: pointer;
   font-family: "Mulish";
   font-style: normal;
@@ -66,24 +68,26 @@
   font-size: 18px;
   line-height: 60px;
   /* identical to box height, or 333% */
-  -webkit-transition: all 0.8s;
-  transition: all 0.8s;
+  -webkit-transition: ease-out 0.3s;
+  transition: ease-out 0.3s;
   z-index: 2;
   color: #ffffff;
+  border-radius: 55px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-.home .home-cont .home-left-side button:hover > .hover-div {
-  width: 197px;
-}
-
-.home .home-cont .home-left-side button .hover-div {
-  width: 0px;
-  height: 52px;
-  margin-left: 1px;
-  background: #458ff6;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
-  z-index: 1;
+.home .home-cont .home-left-side button:hover {
+  -webkit-box-shadow: inset 200px 0 0 0 #ec32be;
+          box-shadow: inset 200px 0 0 0 #ec32be;
+  color: #ffff;
 }
 
 .home .home-cont .home-right-side {

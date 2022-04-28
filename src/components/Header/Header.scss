@@ -38,6 +38,7 @@ header {
       list-style: none;
       display: flex;
       align-items: center;
+      transition: all 0.5s;
       &:hover a {
         color: #000000;
         opacity: 1;
@@ -55,9 +56,27 @@ header {
       transition: all 0.3s;
       /* 1f1534-hyfen */
 
-      color: #1f1534;
       padding: 10px;
       opacity: 0.5;
+      transition: all 0.5s;
+      &:hover {
+        animation: move 0.5s;
+      }
     }
+  }
+}
+
+@keyframes move {
+  0% {
+    transform: rotate(5deg);
+  }
+  40% {
+    transform: rotate(5deg);
+  }
+  60% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(0deg);
   }
 }

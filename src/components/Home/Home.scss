@@ -2,6 +2,7 @@
   width: 100%;
   .home-cont {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     .home-left-side {
       display: flex;
@@ -39,10 +40,8 @@
         height: 56px;
         border: 0;
         outline: 0;
-        background-color: #fff;
-        border: #458ff6 solid 1px;
-
-        border-radius: 55px;
+        background-color: #458ff6;
+        box-shadow: inset 10px 0 0 0 rgb(236, 50, 190);
         cursor: pointer;
         font-family: "Mulish";
         font-style: normal;
@@ -50,20 +49,16 @@
         font-size: 18px;
         line-height: 60px;
         /* identical to box height, or 333% */
-        transition: all 0.8s;
+        transition: ease-out 0.3s;
         z-index: 2;
         color: #ffffff;
-
-        &:hover > .hover-div {
-          width: 197px;
-        }
-        .hover-div {
-          width: 0px;
-          height: 52px;
-          margin-left: 1px;
-          background: #458ff6;
-          transition: all 0.3s;
-          z-index: 1;
+        border-radius: 55px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &:hover {
+          box-shadow: inset 200px 0 0 0 rgb(236, 50, 190);
+          color: #ffff;
         }
       }
     }
