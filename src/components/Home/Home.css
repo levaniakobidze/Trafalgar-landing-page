@@ -98,4 +98,47 @@
 .home .home-cont .home-right-side img {
   width: 100%;
 }
+
+@media screen and (max-width: 1091px) {
+  .home-cont {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+    -webkit-box-align: center !important;
+        -ms-flex-align: center !important;
+            align-items: center !important;
+  }
+  .home-left-side {
+    margin: 60px 0;
+    padding: 0;
+  }
+  .home-left-side .title {
+    font-size: 43px !important;
+  }
+  .home-left-side .text {
+    margin: 30px 0 !important;
+    font-size: 19px !important;
+  }
+}
+
+@media screen and (max-width: 582px) {
+  .home-left-side {
+    width: 500px !important;
+  }
+  .home-left-side .title {
+    font-size: 40px !important;
+  }
+}
+
+@media screen and (max-width: 496px) {
+  .home-left-side {
+    width: 460px !important;
+  }
+  .home-left-side .title {
+    font-size: 39px !important;
+  }
+}
 /*# sourceMappingURL=Home.css.map */

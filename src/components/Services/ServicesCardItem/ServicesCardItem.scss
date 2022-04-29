@@ -1,0 +1,81 @@
+.card-item {
+  width: 350px;
+  height: 334px;
+  background: #ffffff;
+  /* drop shadow */
+  box-shadow: 2px 2px 10px 1px rgb(173, 173, 173);
+  border-radius: 20px;
+  margin: 20px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  padding: 40px;
+  transition: all 0.3s;
+  cursor: pointer;
+  &:hover {
+    background-color: rgb(236, 50, 190);
+  }
+  &:hover > .card-title {
+    color: #ffffff;
+  }
+  &:hover > .card-text {
+    color: #ffffff;
+  }
+  .card-title {
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 56px;
+    /* identical to box height, or 233% */
+    transition: all 0.3s;
+
+    color: #000000;
+
+    mix-blend-mode: normal;
+  }
+  .card-text {
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    /* or 175% */
+    transition: all 0.3s;
+
+    color: #7d7987;
+
+    mix-blend-mode: normal;
+  }
+}
+.card-item:nth-child(1) {
+  background: rgb(236, 50, 190) !important;
+
+  .card-title {
+    color: #ffff;
+  }
+  .card-text {
+    color: #ffffff;
+  }
+}
+
+.card-item:nth-child(3) {
+  background: rgb(236, 50, 190) !important;
+
+  .card-title {
+    color: #ffff;
+  }
+  .card-text {
+    color: #ffffff;
+  }
+}
+.card-item:nth-child(5) {
+  background: rgb(236, 50, 190) !important;
+
+  .card-title {
+    color: #ffff;
+  }
+  .card-text {
+    color: #ffffff;
+  }
+}

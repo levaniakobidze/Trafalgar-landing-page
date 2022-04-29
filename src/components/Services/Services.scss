@@ -1,0 +1,118 @@
+.services {
+  width: 100%;
+  height: 100vh;
+}
+.services-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 0;
+  .underline {
+    background-color: #000000;
+    width: 100px;
+    height: 4px;
+    border-radius: 10px;
+    margin: 5px 0;
+  }
+  .services-title {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+
+    h1 {
+      font-family: "Mulish";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 56px;
+      /* identical to box height, or 156% */
+
+      color: #000000;
+
+      mix-blend-mode: normal;
+    }
+  }
+  .services-text {
+    width: 952px;
+    margin: 7px 0;
+    p {
+      font-family: "Mulish";
+      font-style: normal;
+      font-weight: 300;
+      font-size: 18px;
+      line-height: 30px;
+      /* or 167% */
+
+      text-align: center;
+
+      color: #7d7987;
+
+      mix-blend-mode: normal;
+    }
+  }
+  .services-card-cont {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+}
+
+@media screen and(max-width:1109px) {
+  .services-card-cont {
+    justify-content: center !important;
+  }
+  .services-text {
+    width: 500px !important;
+  }
+}
+
+@media screen and(max-width:505px) {
+  .services-card-cont {
+    justify-content: center !important;
+  }
+  .services-text {
+    width: 450px !important;
+  }
+}
+@media screen and(max-width:461px) {
+  .services-card-cont {
+    justify-content: center !important;
+  }
+  .services-text {
+    width: 410px !important;
+  }
+}
+
+@media screen and(max-width:421px) {
+  .services-card-cont {
+    justify-content: center !important;
+  }
+  .services-text {
+    width: 390px !important;
+  }
+}
+@media screen and(max-width:402px) {
+  .services-card-cont {
+    justify-content: center !important;
+  }
+  .services-text {
+    width: 370px !important;
+  }
+}
+@media screen and(max-width:381px) {
+  .services-card-cont {
+    justify-content: center !important;
+  }
+  .services-text {
+    width: 360px !important;
+  }
+}
+@media screen and(max-width:371px) {
+  .services-card-cont {
+    justify-content: center !important;
+  }
+  .services-text {
+    width: 340px !important;
+  }
+}

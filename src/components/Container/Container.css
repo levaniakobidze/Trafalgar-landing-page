@@ -2,3 +2,143 @@
   max-width: 76rem;
   margin: 0 auto;
 }
+
+@media screen and (max-width: 850px) {
+  .container {
+    max-width: 51rem;
+  }
+}
+@media screen and (max-width: 817px) {
+  .container {
+    max-width: 50rem;
+  }
+}
+
+@media screen and (max-width: 772px) {
+  .container {
+    max-width: 46rem;
+  }
+}
+
+@media screen and (max-width: 747px) {
+  .container {
+    max-width: 45rem;
+  }
+}
+
+@media screen and (max-width: 772px) {
+  .container {
+    max-width: 44rem;
+  }
+}
+
+@media screen and (max-width: 712px) {
+  .container {
+    max-width: 43rem;
+  }
+}
+
+@media screen and (max-width: 698px) {
+  .container {
+    max-width: 42rem;
+  }
+}
+
+@media screen and (max-width: 681px) {
+  .container {
+    max-width: 41rem;
+  }
+}
+@media screen and (max-width: 664px) {
+  .container {
+    max-width: 40rem;
+  }
+}
+
+@media screen and (max-width: 647px) {
+  .container {
+    max-width: 39rem;
+  }
+}
+
+@media screen and (max-width: 632px) {
+  .container {
+    max-width: 38rem;
+  }
+}
+@media screen and (max-width: 617px) {
+  .container {
+    max-width: 37rem;
+  }
+}
+@media screen and (max-width: 598px) {
+  .container {
+    max-width: 36rem;
+  }
+}
+@media screen and (max-width: 586px) {
+  .container {
+    max-width: 35rem;
+  }
+}
+@media screen and (max-width: 669px) {
+  .container {
+    max-width: 34rem;
+  }
+}
+@media screen and (max-width: 554px) {
+  .container {
+    max-width: 33rem;
+  }
+}
+@media screen and (max-width: 539px) {
+  .container {
+    max-width: 32rem;
+  }
+}
+@media screen and (max-width: 522px) {
+  .container {
+    max-width: 31rem;
+  }
+}
+@media screen and (max-width: 508px) {
+  .container {
+    max-width: 30rem;
+  }
+}
+@media screen and (max-width: 493px) {
+  .container {
+    max-width: 29rem;
+  }
+}
+
+@media screen and (max-width: 472px) {
+  .container {
+    max-width: 28rem;
+  }
+}
+@media screen and (max-width: 457px) {
+  .container {
+    max-width: 27rem;
+  }
+}
+@media screen and (max-width: 440px) {
+  .container {
+    max-width: 26rem;
+  }
+}
+@media screen and (max-width: 421px) {
+  .container {
+    max-width: 25rem;
+  }
+}
+@media screen and (max-width: 406px) {
+  .container {
+    max-width: 24rem;
+  }
+}
+@media screen and (max-width: 394px) {
+  .container {
+    max-width: 23rem;
+  }
+}
