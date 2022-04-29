@@ -1,9 +1,12 @@
 .home {
   width: 100%;
+
   .home-cont {
     display: flex;
     flex-wrap: wrap;
+    height: 90vh;
     justify-content: space-between;
+
     .home-left-side {
       display: flex;
       flex-direction: column;
@@ -65,13 +68,13 @@
     .home-right-side {
       width: 513px;
       padding: 40px 0;
+
       img {
         width: 100%;
       }
     }
   }
 }
-
 @media screen and(max-width:1091px) {
   .home-cont {
     display: flex;

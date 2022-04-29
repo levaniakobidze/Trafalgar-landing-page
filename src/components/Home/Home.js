@@ -16,7 +16,10 @@ function Home() {
         </div>
         <div className='home-right-side'>
           <img
-            src='https://res-console.cloudinary.com/diyky5uya/thumbnails/v1/image/upload/v1651170432/dHJhZmFsZ2FyLWhlYWRlcl9pbGx1c3RyYXRpb25fMV95ajIyOWE=/preview'
+            className='home-img'
+            src={
+              "https://res.cloudinary.com/diyky5uya/image/upload/v1651227624/trafalgar-header_illustration_1_jeprwl.png"
+            }
             alt=''
           />
         </div>
