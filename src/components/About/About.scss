@@ -1,0 +1,176 @@
+.about {
+  width: 100%;
+  height: 100vh;
+
+  .about-cont {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0;
+    .up {
+      display: flex;
+      justify-content: space-between;
+
+      .left-side {
+        width: 481px;
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        justify-content: center;
+        .up-left-title {
+          font-family: "Mulish";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 36px;
+          line-height: 56px;
+          /* or 156% */
+
+          color: #000000;
+
+          mix-blend-mode: normal;
+        }
+        .up-left-underline {
+          width: 56px;
+          height: 2px;
+          margin: 10px 0;
+          background: #000000;
+          border-radius: 10px;
+        }
+        .up-left-text {
+          font-family: "Mulish";
+          font-style: normal;
+          font-weight: 300;
+          font-size: 18px;
+          line-height: 30px;
+          /* or 167% */
+          margin: 10px 0;
+          color: #7d7987;
+
+          mix-blend-mode: normal;
+        }
+        .up-left-button {
+          width: 200px;
+          height: 56px;
+          border: 1.4px solid #458ff6;
+          box-sizing: border-box;
+          border-radius: 55px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          text-decoration: none;
+          font-family: "Mulish";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 18px;
+          line-height: 60px;
+          /* identical to box height, or 333% */
+          box-shadow: inset 0 0 0 0 #458ff6;
+          color: #458ff6;
+          margin: 10px 0;
+          mix-blend-mode: normal;
+          transition: all 0.3s;
+          &:hover {
+            box-shadow: inset 300px 0 0 0 #458ff6;
+            color: #fff;
+          }
+        }
+      }
+      .right-side {
+        width: 550px;
+        height: 477px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img {
+          width: 100%;
+        }
+      }
+    }
+    .down {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .down-left-side {
+        width: 550px;
+        height: 477px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img {
+          width: 100%;
+        }
+      }
+      .down-right-side {
+        box-sizing: border-box;
+        width: 481px;
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        .down-right-title {
+          font-family: "Mulish";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 36px;
+          line-height: 48px;
+          /* or 133% */
+
+          color: #000000;
+
+          mix-blend-mode: normal;
+        }
+        .up-right-underline {
+          width: 56px;
+          height: 2px;
+          background: #000000;
+          border-radius: 6px;
+          margin: 10px 0;
+        }
+        .down-right-text {
+          font-family: "Mulish";
+          font-style: normal;
+          font-weight: 300;
+          font-size: 18px;
+          line-height: 30px;
+          /* or 167% */
+
+          color: #7d7987;
+
+          mix-blend-mode: normal;
+        }
+        .download-button {
+          width: 200px;
+          height: 56px;
+          border: 1.4px solid rgb(236, 50, 190);
+          box-sizing: border-box;
+          border-radius: 55px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          text-decoration: none;
+          margin: 10px 0;
+          font-family: "Mulish";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 18px;
+          line-height: 60px;
+          /* or 333% */
+
+          display: flex;
+          align-items: center;
+
+          color: rgb(236, 50, 190);
+
+          mix-blend-mode: normal;
+          box-shadow: inset 0 0 0 0 rgb(236, 50, 190);
+          transition: all 0.4s;
+          &:hover {
+            box-shadow: inset -300px 0px 0px 0px rgb(236, 50, 190);
+            border: 1px solid rgb(236, 50, 190);
+
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+}

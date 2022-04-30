@@ -1,0 +1,171 @@
+.about-card {
+  width: 100%;
+  margin-top: 100px !important;
+  background: linear-gradient(208.18deg, #67c3f3 9.05%, #5a98f2 76.74%);
+  border-radius: 24px;
+  margin: 0 auto;
+  height: 425px;
+  padding: 30px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.about-card .about-card-title {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  /* identical to box height, or 133% */
+  color: #ffffff;
+  mix-blend-mode: normal;
+}
+
+.about-card .about-card-underline {
+  width: 56px;
+  height: 2px;
+  background: #ffffff;
+  border-radius: 6px;
+}
+
+.about-card .about-card-manin-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 900px;
+  height: 200px;
+}
+
+.about-card .about-card-manin-content .about-card-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.about-card .about-card-manin-content .about-card-left .about-card-img {
+  width: 141px;
+  height: 141px;
+  border-radius: 50%;
+}
+
+.about-card .about-card-manin-content .about-card-left .about-card-img img {
+  width: 141px;
+  height: 141px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+
+.about-card .about-card-manin-content .about-card-left .about-card-name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 0 20px;
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
+}
+
+.about-card .about-card-manin-content .about-card-left .about-card-name h3 {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 28px;
+  /* identical to box height, or 218% */
+  color: #ffffff;
+  mix-blend-mode: normal;
+}
+
+.about-card .about-card-manin-content .about-card-left .about-card-name p {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 36px;
+  /* identical to box height, or 267% */
+  color: rgba(255, 255, 255, 0.85);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  mix-blend-mode: normal;
+}
+
+.about-card .about-card-manin-content .about-card-right {
+  width: 350px;
+}
+
+.about-card .about-card-manin-content .about-card-right p {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 30px;
+  /* or 158% */
+  color: rgba(255, 255, 255, 0.9);
+  mix-blend-mode: normal;
+}
+
+.about-card .about-card-arrows {
+  width: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+}
+
+.about-card .about-card-arrows .arrows-left {
+  margin: 0;
+  padding: 0;
+}
+
+.about-card .about-card-arrows .arrow-icon1 {
+  font-size: 30px !important;
+  color: #fff !important;
+  cursor: pointer;
+}
+
+.about-card .about-card-arrows .arrow-icon2 {
+  font-size: 30px !important;
+  color: #fff !important;
+  cursor: pointer;
+}
+/*# sourceMappingURL=AboutCard.css.map */
