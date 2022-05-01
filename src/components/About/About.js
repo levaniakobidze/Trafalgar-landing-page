@@ -1,4 +1,4 @@
-import { Container } from "@mui/material";
+import Container from "../Container/Container";
 import React from "react";
 import "./About.css";
 import AboutCard from "./AboutCard/AboutCard";

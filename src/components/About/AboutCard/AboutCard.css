@@ -5,6 +5,7 @@
   border-radius: 24px;
   margin: 0 auto;
   height: 425px;
+  margin-bottom: 30px;
   padding: 30px 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -53,8 +54,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 900px;
-  height: 200px;
+  width: 80vw;
 }
 
 .about-card .about-card-manin-content .about-card-left {
@@ -66,6 +66,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  width: 270px;
 }
 
 .about-card .about-card-manin-content .about-card-left .about-card-img {
@@ -167,5 +168,89 @@
   font-size: 30px !important;
   color: #fff !important;
   cursor: pointer;
+}
+
+@media screen and (max-width: 967px) {
+  .about-card {
+    height: 400px !important;
+  }
+}
+
+@media screen and (max-width: 907px) {
+  .about-card {
+    height: 590px !important;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .about-card-manin-content {
+    margin-bottom: 120px;
+  }
+}
+
+@media screen and (max-width: 503px) {
+  .about-card {
+    height: 670px !important;
+  }
+  .about-card-title {
+    font-size: 30px !important;
+  }
+  .about-card-name p {
+    font-size: 15px !important;
+  }
+}
+
+@media screen and (max-width: 437px) {
+  .about-card {
+    height: 750px !important;
+  }
+}
+
+@media screen and (max-width: 429px) {
+  .about-card-left {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media screen and (max-width: 891px) {
+  .about-card-manin-content {
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+  }
+  .about-card-name {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+@media screen and (max-width: 867px) {
+  .about-card-left {
+    margin: 25px 0;
+  }
+}
+
+@media screen and (max-width: 541px) {
+  .about-card-title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+    text-align: center !important;
+  }
 }
 /*# sourceMappingURL=AboutCard.css.map */

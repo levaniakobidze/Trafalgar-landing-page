@@ -5,7 +5,7 @@ import Container from "../Container/Container";
 import MenuIcon from "@mui/icons-material/Menu";
 
 function Header() {
-  const [activeMenu, setActiveMenu] = useState(false);
+  const [activeMenu, setActiveMenu] = useState(true);
 
   const activeMenuHandler = () => {
     setActiveMenu(!activeMenu);
@@ -29,9 +29,6 @@ function Header() {
           </li>
           <li onClick={() => setActiveMenu(true)}>
             <Link to='/about'> About Us </Link>
-          </li>
-          <li onClick={() => setActiveMenu(true)}>
-            <Link to='/contact'> Contact Us </Link>
           </li>
         </ul>
         <div className='burger-menu' onClick={activeMenuHandler}>
